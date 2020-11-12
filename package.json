@@ -1,0 +1,22 @@
+{
+  "name": "currency.js",
+  "version": "1.0.0",
+  "description": "a module for noobs",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avaneesh-coder/Currency.js.git"
+  },
+  "keywords": [
+    "discord.js",
+    "currency",
+    "databases"
+  ],
+  "author": "Avaneesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avaneesh-coder/Currency.js/issues"
+  },
+  "homepage": "https://github.com/Avaneesh-coder/Currency.js#readme"
+}
