@@ -27,7 +27,6 @@ async function daily(message) {
     let embed = new MessageEmbed()
       .setColor("GREEN")
       .setDescription(`:moneybag: | You got **` + jean + `** coins as a daily reward.`)
-     
       .setThumbnail(message.author.displayAvatarURL({ formate: "jpg" }));
 
     await db.add(`balance_${message.guild.id}_${message.author.id}`, jean);
@@ -37,6 +36,7 @@ async function daily(message) {
   }
     
   } catch(err) {
+
  return message.channel.send({embed: {"title": "Something went wrong !!", "description": err, "color": "RED"}})
   }
 

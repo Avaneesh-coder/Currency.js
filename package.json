@@ -1,6 +1,6 @@
 {
-  "name": "currency.js",
-  "version": "1.0.0",
+  "name": "discord-currencyjs",
+  "version": "1.1.1",
   "description": "a module for noobs",
   "main": "index.js",
   "scripts": {},
